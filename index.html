@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>猜字谜</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+   <link rel="stylesheet" href="css/index.css">
+   <script src="js/font.js"></script>
+</head>
+<body>
+    <div class="riddle_content">
+        <div class="riddles_background">
+            <!-- <div class="riddles_logo">
+                <img src="images/TKL_logo.jpg" alt="">
+            </div> -->
+            <div class="riddles_top">
+                <div class="riddle_animals">
+                    <span><img src="images/FRO_title.png" alt=""></span>
+                    <span><img src="images/TS_title.png" alt=""></span>
+                </div>
+                <div class="riddle_light">
+                    <img src="images/event_title.png" alt="">
+                </div>
+                <div class="game_title">
+                    <img src="images/game_title.png" alt="">
+                </div>
+                <div class="game_start">
+                        <img src="images/button-enter.png" alt="">
+                </div>
+            </div>
+            <div class="riddle_charactor">
+
+            </div>
+            <div class="riddle_rule_bg">
+                <div class="riddle_rule">
+                   <div class="riddle_rule_con">
+                        <p class="riddle_red_bold">如何参与</p>
+                        <p class="riddle_yellow">参与线上猜谜，随机获取5道题，答对3题以上即可获得线上抽奖一次</p>
+                        <p class="riddle_red_bold prize_How">如何兑奖</p>
+                        <p class="riddle_yellow">前往三里屯太古区南区南庭现场兑换处，向工作人员出示获奖页面(或中奖二维码)进行核销。兑奖有效期见详情页面。</p>
+                        <p class="riddle_yellow_bold prize_How">温馨提示</p>
+                        <p class="riddle_yellow">·礼品随机，数量每日限额(礼品内容详见现场海报);</p>
+                        <p class="riddle_yellow">·请务必妥善保存获奖页面(或中奖二维码)，遗失则无法兑换。</p>
+                   </div>
+                   <div class="submit_btn"></div>
+                </div>
+            </div>
+        </div>
+        <div class="riddle_page_con">
+            <div class="riddles_prize">
+                <div class="riddles_right_img">
+                      <div class="lucky_btn">
+
+                      </div>      
+                </div>
+            </div> 
+            <div class="riddles_wrong">
+                <div class="riddles_wrong_img">
+            
+                 </div>
+            </div> 
+            <div class="riddle_page_top">
+                <div class="riddle_page_animals">
+                    <span><img src="images/FRO_title.png" alt=""></span>
+                    <span><img src="images/TS_title.png" alt=""></span>
+                </div>
+                <div class="riddle_page_light">
+                    <img src="images/event_title.png" alt="">
+                </div>
+            </div>
+            <div class="riddle_page_middle">
+                <div class="answer_timu"></div>
+                <div class="question_timu"></div>
+                <div class="riddle_page_timu">
+                    <div class="riddle_timu riddle_timu1"><span></span></div>
+                    <div class="riddle_page_tips"></div>
+                    <div class="riddle_page_answer">
+                        <div class="answer_item">
+                            <input type="radio" name="radio" value="大白">
+                            <div class="option"></div>
+                            <span class="answer_item_text">大白</span>
+                        </div>
+                        <div class="answer_item">
+                            <input type="radio" name="radio" value="雪宝">
+                            <div class="option"></div>
+                            <span class="answer_item_text">雪宝</span>
+                        </div>
+                        <div class="answer_item">
+                            <input type="radio" name="radio" value="白雪公主">
+                            <div class="option"></div>
+                            <span class="answer_item_text">白雪公主</span>
+                        </div>
+                    </div>
+                    <div class="riddle_right_choose" style="display:none"></div>
+                    <div class="sl" style="display:none"></div>
+                    <div class="riddle_id" style="display:none"></div>
+                </div>
+            </div>
+            <div class="riddle_bottom">
+                <div class="choose_submit_btn">
+
+                </div>
+            </div>
+        </div> 
+        <div class="riddle_page_con2">
+            <div class="riddles_prize">
+                <div class="riddles_right_img">
+                    <div class="lucky_btn">
+                          ""
+                      </div> 
+                </div>
+            </div> 
+            <div class="riddles_wrong">
+                <div class="riddles_wrong_img">
+            
+                </div>
+            </div> 
+            <div class="riddle_page_top">
+                <div class="riddle_page_light2">
+                    <img src="images/TKL_title.png" alt="">
+                </div>
+            </div>
+            <div class="riddle_page_middle">
+                <div class="answer_timu"></div>
+                <div class="question_timu"></div>
+                <div class="riddle_page_timu">
+                    <div class="riddle_timu riddle_timu2"><span></span></div>
+                    <div class="riddle_page_tips"></div>
+                    <div class="riddle_page_answer">
+                        <div class="answer_item">
+                            <input type="radio" name="radio" value="大白">
+                            <div class="option"></div><!--该div盛放的是优化后的按钮图片-->
+                            <span class="answer_item_text">大白</span>
+                        </div>
+                        <div class="answer_item">
+                            <input type="radio" name="radio" value="雪宝">
+                            <div class="option"></div><!--该div盛放的是优化后的按钮图片-->
+                            <span class="answer_item_text">雪宝</span>
+                        </div>
+                        <div class="answer_item">
+                            <input type="radio" name="radio" value="白雪公主">
+                            <div class="option"></div><!--该div盛放的是优化后的按钮图片-->
+                            <span class="answer_item_text">白雪公主</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="riddle_bottom">
+                <div class="choose_submit_btn">
+
+                </div>
+            </div>
+        </div>
+        <div class="getprize">
+                <div class="riddle_page_top2">
+                   <div class="riddle_page_animals">
+                       <span><img src="images/FRO_title.png" alt=""></span>
+                       <span><img src="images/TS_title.png" alt=""></span>
+                   </div>
+                   <div class="riddle_page_light3">
+                       <img src="images/event_title2.png" alt="">
+                   </div>
+                </div>
+                <div class="riddle_cricle">
+                    <div class="prize_content">
+                        <ul>
+                            <li data-id="3"><img src="images/TS_char1.png" alt=""></li>
+                            <li data-id="3"><img src="images/TS_char2.png" alt=""></li>
+                            <li data-id="3"><img src="images/TS_char3.png" alt=""></li>
+                            <li data-id="3"><img src="images/TS_char4.png" alt=""></li>
+                            <li data-id="3"><img src="images/TS_char5.png" alt=""></li>
+                            <li data-id="3"><img src="images/TS_char6.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="lucky_btn2">
+
+                </div>
+
+        </div> 
+        <div class="prizepage1">
+             <div class="riddles_logs">
+                <img src="images/TKL_logo.png" alt="">
+            </div>
+            <div class="lanter1"><img src="images/lantern_cir-orange.png" alt=""></div>
+            <div class="lanter2"><img src="images/lantern_squ-pink.png" alt=""></div>
+            <div class="lanter3"><img src="images/lantern_cir-red.png" alt=""></div>
+            <div class="lanter4"><img src="images/lantern_squ-orange.png" alt=""></div>
+            <div class="lanter5"><img src="images/lantern_cir-pink.png" alt=""></div>
+            <div class="riddle_page_top2">
+                <div class="riddle_page_animals">
+                    <span><img src="images/FRO_title.png" alt=""></span>
+                    <span><img src="images/TS_title.png" alt=""></span>
+                </div>
+                <div class="riddle_page_light3">
+                    <img src="images/event_title2.png" alt="">
+                </div>
+             </div>
+             <div class="prize_content_box">
+                    <div class="prize_img">
+                        <img src="" alt="">
+                    </div>
+             </div>
+             <div class="weima_box">
+                <div id="qrcode"></div>
+            </div>
+        </div> 
+    </div>    
+</body>
+<script src="js/jweixin.js"></script>
+<script src="js/jquery-1.7.2.js"></script>
+<script src="js/zepto.min.js"></script>
+<script src="js/jquery.qrcode.min.js"></script>
+<script src="js/index.js"></script>
+</html>
