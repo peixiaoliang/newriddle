@@ -2,7 +2,6 @@ $(function(){
     console.log(document.body.clientHeight)
 $("body").css("height",document.body.clientHeight)
     $(window).resize(function () { 
-	alert(1)
 	$("body").css("height",document.body.clientHeight);
 	})
 $('.yanzheng_btn').click(function(){
